@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rathore GYM </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* padding: 0px;
+            margin: 0px; */
+            background: url(img/Background.png);
+            color: white;
+            height: 780px;
+            font-family: 'Ubuntu', sans-serif;
+
+        }
+
+        .left {
+            position: absolute;
+            left: 40px;
+            top: 20px;
+            display: inline-block;
+            /* border: 5px solid yellow; */
+            /* text-align: center; */
+        }
+
+        .left div {
+            line-height: 0px;
+            font-size: 16px;
+        }
+
+        .left img {
+            height: 100px;
+            width: 150px;
+            filter: invert(100%);
+
+        }
+
+        .mid {
+            /* border: 5px solid rgb(36, 210, 230); */
+            display: block;
+            width: 40%;
+            margin: 15px auto;
+        }
+
+        .right {
+            position: absolute;
+            right: 35px;
+            top: 18px;
+            display: inline-block;
+            /* border: 5px solid rgb(200, 226, 94); */
+        }
+
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 25px 10px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+
+        }
+
+        .btn {
+            margin: 5px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 10x;
+        }
+
+        .btn:hover {
+            background-color: rgb(189, 172, 172);
+        }
+
+        .container {
+            border: 2px solid white;
+            padding: 16px 37px;
+            margin: 108px 38px;
+            width: 35%;
+            border-radius: 15px;
+        }
+
+        .call {
+            font-size: 16px;
+            text-align: center;
+            font-weight: lighter;
+        }
+
+        .from-group input {
+            text-align: center;
+            display: block;
+            width: 150px;
+            padding: 2px;
+            border: 2px solid white;
+            margin: 10px auto;
+            font-size: 15px;
+            border-radius: 15px;
+        }
+
+        .submit {
+            display: block;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 15px;
+            padding: 2px;
+            cursor: pointer;
+            width: 35%;
+            margin: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png" alt="" srcset="">
+            <div style="text-align: center;">
+                Rathore GYM
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar" style="margin: 20px auto;">
+                <li><a href="#">Home </a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Training Course</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Youtube</button><button class="btn">Instagram</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1 class="call">Join The Best GYM Of Indore Now</h1>
+        <form action="noaction.php">
+            <div class="from-group">
+                <input type="text" placeholder="Your name ">
+            </div>
+            <div class="from-group">
+                <input type="text" placeholder="Gender ">
+            </div>
+            <div class="from-group">
+                <input type="text" placeholder="Age ">
+            </div>
+            <div class="from-group">
+                <input type="text" placeholder="Contact No  ">
+            </div>
+            <div class="from-group">
+                <input type="text" placeholder="Email ">
+            </div>
+        </form>
+        <button class="submit">Submit</button>
+    </div>
+
+</body>
+
+</html>
